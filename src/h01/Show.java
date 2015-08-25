@@ -6,12 +6,15 @@ import java.awt.Graphics;
 @SuppressWarnings("serial")
 public class Show extends Applet {
 
-		  public void init() {
-			  setBackground(Color.blue);
-		  }
+	  public void init() {
+		  setSize(400, 400);
+		  setBackground(Color.blue);
+	  }
+			  
+	  
 
-		  public void paint(Graphics g) {
-			  g.setColor(Color.yellow);
-			  g.drawString("Bilal Sahraoui", 50, 60 );
-		  }
-		}
+	  public void paint(Graphics g) {
+		  g.setColor(Color.yellow);
+		  g.drawString("Bilal Sahraoui", 50, 60 );
+	  }
+}

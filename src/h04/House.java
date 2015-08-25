@@ -7,13 +7,14 @@ import java.applet.*;
 public class House extends Applet {
 
   public void init() {
+	  setSize(400, 400);
   }
 
   public void paint(Graphics g) {
-    setBackground(Color.blue);
-    g.setColor(Color.red);
-    g.drawRect(52, 190, 95, 150);
-      int[] xPoints = {100,50,150};
+      setBackground(Color.blue);
+      g.setColor(Color.red);
+      g.drawRect(52, 190, 95, 150);
+	  int[] xPoints = {100,50,150};
       int[] yPoints = {100,200,200};
       g.drawPolygon(xPoints, yPoints, 3);
       g.drawRect(52, 300, 20, 40);
