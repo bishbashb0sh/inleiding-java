@@ -7,7 +7,7 @@ import java.applet.*;
 public class House extends Applet {
 
   public void init() {
-	  setSize(400, 400);
+	  setSize(800, 800);
   }
 
   public void paint(Graphics g) {

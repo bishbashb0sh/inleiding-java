@@ -7,7 +7,7 @@ import java.awt.Graphics;
 public class Applet_voornaam extends Applet {
 
 	      public void init() {
-		  setSize(400, 400);
+		  setSize(100, 100);
 		  setBackground(Color.white);}
 
 	      public void paint(Graphics g) {
